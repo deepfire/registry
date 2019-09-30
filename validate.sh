@@ -16,7 +16,7 @@ show                          BUILDKITE_REPO
 echo
 
 validate                   BUILDKITE_COMMAND "validate.sh"
-validate   BUILDKITE_PIPELINE_DEFAULT_BRANCH
+#validate   BUILDKITE_PIPELINE_DEFAULT_BRANCH
 validate  BUILDKITE_PULL_REQUEST_BASE_BRANCH "master"
 validate                      BUILDKITE_REPO "registry"
 
